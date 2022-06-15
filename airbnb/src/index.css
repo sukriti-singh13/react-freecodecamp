@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Lora&family=Montserrat:wght@100;200;300&family=Nunito:wght@300&family=Poppins:ital,wght@0,300;0,400;0,500;1,200&family=Roboto+Slab:wght@300&display=swap');
+
+*{
+  box-sizing: border-box;
+  padding:0;
+  margin:0;
+  font-family: "poppins";
+}
+nav{
+  height:100px;
+  padding :20px 36px;
+  
+}
+
+section{
+  padding:1rem 5rem;
+}
+.main-section{
+
+  display:flex;
+  flex-direction: column;
+
+
+}
+
+.main-img{
+  align-self: center;
+}
+
+.main-section h1{
+  padding-top: 5rem;
+  margin-bottom:1rem;
+  font-size: 36px;
+
+}
+
+.main-section p{
+  margin-bottom:5rem;
+}
+
+.card-section{
+  position:relative;
+}
+.badge{
+  position:absolute;
+  padding:2px;
+  background-color: black;
+  color:white;
+  border-radius:5px;
+  font-size:12px;
+  margin-left:5px;
+  margin-top:5px;
+  
+}
+.card-section p{
+font-size: 12px;
+}
+.star-icon{
+width:15px;
+height:15px;
+
+}
+.img-stats{
+  margin-top:0.5rem;
+ 
+}
+.rating{
+  padding-left:0.2rem;
+}
+.stats,.rating{
+  font-size: 12px;
+}
+.stats{
+  color:#918E9B;
+}
+.card-list{
+  display:flex;
+  max-width:500px;
+  
+}
+.card-section img{
+  max-height:200px;
+  object-fit: cover;
+}
